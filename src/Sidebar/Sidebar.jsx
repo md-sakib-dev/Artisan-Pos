@@ -135,7 +135,7 @@ const Sidebar = () => {
 
       </div>
 
-    <motion.div variants={Slidebar_Animation} animate={isOpen?"open":"closed"} className='bg-green-600 text-gray shadow-xl h-screen z-[999] w-[16rem] max-w-[16rem] overflow-hidden  fixed text-white'>
+    <motion.div variants={Slidebar_Animation} animate={isOpen?"open":"closed"} className='bg-green-600 text-gray shadow-xl h-screen z-[999] w-[16rem] max-w-[16rem] overflow-hidden fixed md:relative text-white'>
     <div className='flex items-center gap-2 border-b border-b-slate-500 py-3 mx-2 '>
       
 
