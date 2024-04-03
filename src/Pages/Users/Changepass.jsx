@@ -34,7 +34,7 @@ const Changepass = () => {
   return (
     <div className='w-full h-full mt-20 mx-auto'>
       <div>
-        <div className='flex flex-col md:flex-row justify-around md:mt-2 gap-8'>
+        <div className='flex flex-col md:flex-row justify-center items-center md:mt-2 gap-8'>
           <div>
             <div className='flex flex-col gap-1 relative'>
               <input
