@@ -70,7 +70,7 @@ const Sales = () => {
   
     
   return (
-    <div className='w-full h-full mx-auto mt-12'>
+    <div className='w-full max-h-screen mx-auto mt-10 md:mt-0'>
       <div className='grid md:grid-cols-[50fr,50fr] gap-1'>
       <div className='border-2 border-2xl text-black  col-span-1'>
           <div className='flex flex-col justify-between'>
